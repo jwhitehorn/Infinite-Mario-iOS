@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96AB67D21708F07300A8B3AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96AB67D11708F07300A8B3AC /* UIKit.framework */; };
+		96AB67D41708F07300A8B3AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96AB67D31708F07300A8B3AC /* Foundation.framework */; };
+		96AB67D61708F07300A8B3AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96AB67D51708F07300A8B3AC /* CoreGraphics.framework */; };
+		96AB67D81708F07300A8B3AC /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96AB67D71708F07300A8B3AC /* GLKit.framework */; };
+		96AB67DA1708F07300A8B3AC /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96AB67D91708F07300A8B3AC /* OpenGLES.framework */; };
+		96AB67E01708F07300A8B3AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96AB67DE1708F07300A8B3AC /* InfoPlist.strings */; };
+		96AB67E21708F07300A8B3AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AB67E11708F07300A8B3AC /* main.m */; };
+		96AB67E61708F07300A8B3AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AB67E51708F07300A8B3AC /* AppDelegate.m */; };
+		96AB67E81708F07300A8B3AC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 96AB67E71708F07300A8B3AC /* Default.png */; };
+		96AB67EA1708F07300A8B3AC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96AB67E91708F07300A8B3AC /* Default@2x.png */; };
+		96AB67EC1708F07300A8B3AC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96AB67EB1708F07300A8B3AC /* Default-568h@2x.png */; };
+		96AB67EE1708F07300A8B3AC /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 96AB67ED1708F07300A8B3AC /* Shader.fsh */; };
+		96AB67F01708F07300A8B3AC /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 96AB67EF1708F07300A8B3AC /* Shader.vsh */; };
+		96AB67F31708F07300A8B3AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AB67F21708F07300A8B3AC /* ViewController.m */; };
+		96AB67F61708F07300A8B3AC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96AB67F41708F07300A8B3AC /* ViewController.xib */; };
+		96AB680C1708F23B00A8B3AC /* bgsheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 96AB67FD1708F23B00A8B3AC /* bgsheet.png */; };
+		96AB680D1708F23B00A8B3AC /* endscene.gif in Resources */ = {isa = PBXBuildFile; fileRef = 96AB67FE1708F23B00A8B3AC /* endscene.gif */; };
+		96AB680E1708F23B00A8B3AC /* enemysheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 96AB67FF1708F23B00A8B3AC /* enemysheet.png */; };
+		96AB680F1708F23B00A8B3AC /* firemariosheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 96AB68001708F23B00A8B3AC /* firemariosheet.png */; };
+		96AB68101708F23B00A8B3AC /* font.gif in Resources */ = {isa = PBXBuildFile; fileRef = 96AB68011708F23B00A8B3AC /* font.gif */; };
+		96AB68111708F23B00A8B3AC /* gameovergost.gif in Resources */ = {isa = PBXBuildFile; fileRef = 96AB68021708F23B00A8B3AC /* gameovergost.gif */; };
+		96AB68121708F23B00A8B3AC /* itemsheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 96AB68031708F23B00A8B3AC /* itemsheet.png */; };
+		96AB68131708F23B00A8B3AC /* logo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 96AB68041708F23B00A8B3AC /* logo.gif */; };
+		96AB68141708F23B00A8B3AC /* mapsheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 96AB68051708F23B00A8B3AC /* mapsheet.png */; };
+		96AB68151708F23B00A8B3AC /* mariosheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 96AB68061708F23B00A8B3AC /* mariosheet.png */; };
+		96AB68161708F23B00A8B3AC /* particlesheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 96AB68071708F23B00A8B3AC /* particlesheet.png */; };
+		96AB68171708F23B00A8B3AC /* racoonmariosheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 96AB68081708F23B00A8B3AC /* racoonmariosheet.png */; };
+		96AB68181708F23B00A8B3AC /* smallmariosheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 96AB68091708F23B00A8B3AC /* smallmariosheet.png */; };
+		96AB68191708F23B00A8B3AC /* title.gif in Resources */ = {isa = PBXBuildFile; fileRef = 96AB680A1708F23B00A8B3AC /* title.gif */; };
+		96AB681A1708F23B00A8B3AC /* worldmap.png in Resources */ = {isa = PBXBuildFile; fileRef = 96AB680B1708F23B00A8B3AC /* worldmap.png */; };
+		96AB681E1708F4F700A8B3AC /* GameEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AB681D1708F4F700A8B3AC /* GameEngine.m */; };
+		96AB68211708F82100A8B3AC /* GameState.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AB68201708F82100A8B3AC /* GameState.m */; };
+		96AB68251708F9D800A8B3AC /* TitleScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AB68241708F9D800A8B3AC /* TitleScreen.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96AB67CE1708F07300A8B3AC /* Infinite Mario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Infinite Mario.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96AB67D11708F07300A8B3AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		96AB67D31708F07300A8B3AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		96AB67D51708F07300A8B3AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		96AB67D71708F07300A8B3AC /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		96AB67D91708F07300A8B3AC /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		96AB67DD1708F07300A8B3AC /* Infinite Mario-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Infinite Mario-Info.plist"; sourceTree = "<group>"; };
+		96AB67DF1708F07300A8B3AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		96AB67E11708F07300A8B3AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96AB67E31708F07300A8B3AC /* Infinite Mario-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Infinite Mario-Prefix.pch"; sourceTree = "<group>"; };
+		96AB67E41708F07300A8B3AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		96AB67E51708F07300A8B3AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		96AB67E71708F07300A8B3AC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		96AB67E91708F07300A8B3AC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		96AB67EB1708F07300A8B3AC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		96AB67ED1708F07300A8B3AC /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		96AB67EF1708F07300A8B3AC /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		96AB67F11708F07300A8B3AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		96AB67F21708F07300A8B3AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		96AB67F51708F07300A8B3AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		96AB67FD1708F23B00A8B3AC /* bgsheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bgsheet.png; path = Assets/bgsheet.png; sourceTree = "<group>"; };
+		96AB67FE1708F23B00A8B3AC /* endscene.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = endscene.gif; path = Assets/endscene.gif; sourceTree = "<group>"; };
+		96AB67FF1708F23B00A8B3AC /* enemysheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = enemysheet.png; path = Assets/enemysheet.png; sourceTree = "<group>"; };
+		96AB68001708F23B00A8B3AC /* firemariosheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = firemariosheet.png; path = Assets/firemariosheet.png; sourceTree = "<group>"; };
+		96AB68011708F23B00A8B3AC /* font.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = font.gif; path = Assets/font.gif; sourceTree = "<group>"; };
+		96AB68021708F23B00A8B3AC /* gameovergost.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = gameovergost.gif; path = Assets/gameovergost.gif; sourceTree = "<group>"; };
+		96AB68031708F23B00A8B3AC /* itemsheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = itemsheet.png; path = Assets/itemsheet.png; sourceTree = "<group>"; };
+		96AB68041708F23B00A8B3AC /* logo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = logo.gif; path = Assets/logo.gif; sourceTree = "<group>"; };
+		96AB68051708F23B00A8B3AC /* mapsheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mapsheet.png; path = Assets/mapsheet.png; sourceTree = "<group>"; };
+		96AB68061708F23B00A8B3AC /* mariosheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mariosheet.png; path = Assets/mariosheet.png; sourceTree = "<group>"; };
+		96AB68071708F23B00A8B3AC /* particlesheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = particlesheet.png; path = Assets/particlesheet.png; sourceTree = "<group>"; };
+		96AB68081708F23B00A8B3AC /* racoonmariosheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = racoonmariosheet.png; path = Assets/racoonmariosheet.png; sourceTree = "<group>"; };
+		96AB68091708F23B00A8B3AC /* smallmariosheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smallmariosheet.png; path = Assets/smallmariosheet.png; sourceTree = "<group>"; };
+		96AB680A1708F23B00A8B3AC /* title.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = title.gif; path = Assets/title.gif; sourceTree = "<group>"; };
+		96AB680B1708F23B00A8B3AC /* worldmap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = worldmap.png; path = Assets/worldmap.png; sourceTree = "<group>"; };
+		96AB681C1708F4F700A8B3AC /* GameEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameEngine.h; path = Engine/GameEngine.h; sourceTree = "<group>"; };
+		96AB681D1708F4F700A8B3AC /* GameEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameEngine.m; path = Engine/GameEngine.m; sourceTree = "<group>"; };
+		96AB681F1708F82100A8B3AC /* GameState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameState.h; path = Engine/GameState.h; sourceTree = "<group>"; };
+		96AB68201708F82100A8B3AC /* GameState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameState.m; path = Engine/GameState.m; sourceTree = "<group>"; };
+		96AB68231708F9D800A8B3AC /* TitleScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TitleScreen.h; path = Game/TitleScreen.h; sourceTree = "<group>"; };
+		96AB68241708F9D800A8B3AC /* TitleScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TitleScreen.m; path = Game/TitleScreen.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96AB67CB1708F07300A8B3AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96AB67D21708F07300A8B3AC /* UIKit.framework in Frameworks */,
+				96AB67D41708F07300A8B3AC /* Foundation.framework in Frameworks */,
+				96AB67D61708F07300A8B3AC /* CoreGraphics.framework in Frameworks */,
+				96AB67D81708F07300A8B3AC /* GLKit.framework in Frameworks */,
+				96AB67DA1708F07300A8B3AC /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96AB67C51708F07300A8B3AC = {
+			isa = PBXGroup;
+			children = (
+				96AB67DB1708F07300A8B3AC /* Infinite Mario */,
+				96AB67D01708F07300A8B3AC /* Frameworks */,
+				96AB67CF1708F07300A8B3AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96AB67CF1708F07300A8B3AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96AB67CE1708F07300A8B3AC /* Infinite Mario.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96AB67D01708F07300A8B3AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96AB67D11708F07300A8B3AC /* UIKit.framework */,
+				96AB67D31708F07300A8B3AC /* Foundation.framework */,
+				96AB67D51708F07300A8B3AC /* CoreGraphics.framework */,
+				96AB67D71708F07300A8B3AC /* GLKit.framework */,
+				96AB67D91708F07300A8B3AC /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96AB67DB1708F07300A8B3AC /* Infinite Mario */ = {
+			isa = PBXGroup;
+			children = (
+				96AB68221708F98700A8B3AC /* Game */,
+				96AB681B1708F2C200A8B3AC /* Engine */,
+				96AB67FC1708F20F00A8B3AC /* Assets */,
+				96AB67E41708F07300A8B3AC /* AppDelegate.h */,
+				96AB67E51708F07300A8B3AC /* AppDelegate.m */,
+				96AB67ED1708F07300A8B3AC /* Shader.fsh */,
+				96AB67EF1708F07300A8B3AC /* Shader.vsh */,
+				96AB67F11708F07300A8B3AC /* ViewController.h */,
+				96AB67F21708F07300A8B3AC /* ViewController.m */,
+				96AB67F41708F07300A8B3AC /* ViewController.xib */,
+				96AB67DC1708F07300A8B3AC /* Supporting Files */,
+			);
+			path = "Infinite Mario";
+			sourceTree = "<group>";
+		};
+		96AB67DC1708F07300A8B3AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96AB67DD1708F07300A8B3AC /* Infinite Mario-Info.plist */,
+				96AB67DE1708F07300A8B3AC /* InfoPlist.strings */,
+				96AB67E11708F07300A8B3AC /* main.m */,
+				96AB67E31708F07300A8B3AC /* Infinite Mario-Prefix.pch */,
+				96AB67E71708F07300A8B3AC /* Default.png */,
+				96AB67E91708F07300A8B3AC /* Default@2x.png */,
+				96AB67EB1708F07300A8B3AC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96AB67FC1708F20F00A8B3AC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				96AB67FD1708F23B00A8B3AC /* bgsheet.png */,
+				96AB67FE1708F23B00A8B3AC /* endscene.gif */,
+				96AB67FF1708F23B00A8B3AC /* enemysheet.png */,
+				96AB68001708F23B00A8B3AC /* firemariosheet.png */,
+				96AB68011708F23B00A8B3AC /* font.gif */,
+				96AB68021708F23B00A8B3AC /* gameovergost.gif */,
+				96AB68031708F23B00A8B3AC /* itemsheet.png */,
+				96AB68041708F23B00A8B3AC /* logo.gif */,
+				96AB68051708F23B00A8B3AC /* mapsheet.png */,
+				96AB68061708F23B00A8B3AC /* mariosheet.png */,
+				96AB68071708F23B00A8B3AC /* particlesheet.png */,
+				96AB68081708F23B00A8B3AC /* racoonmariosheet.png */,
+				96AB68091708F23B00A8B3AC /* smallmariosheet.png */,
+				96AB680A1708F23B00A8B3AC /* title.gif */,
+				96AB680B1708F23B00A8B3AC /* worldmap.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		96AB681B1708F2C200A8B3AC /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				96AB681C1708F4F700A8B3AC /* GameEngine.h */,
+				96AB681D1708F4F700A8B3AC /* GameEngine.m */,
+				96AB681F1708F82100A8B3AC /* GameState.h */,
+				96AB68201708F82100A8B3AC /* GameState.m */,
+			);
+			name = Engine;
+			sourceTree = "<group>";
+		};
+		96AB68221708F98700A8B3AC /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				96AB68231708F9D800A8B3AC /* TitleScreen.h */,
+				96AB68241708F9D800A8B3AC /* TitleScreen.m */,
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96AB67CD1708F07300A8B3AC /* Infinite Mario */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96AB67F91708F07300A8B3AC /* Build configuration list for PBXNativeTarget "Infinite Mario" */;
+			buildPhases = (
+				96AB67CA1708F07300A8B3AC /* Sources */,
+				96AB67CB1708F07300A8B3AC /* Frameworks */,
+				96AB67CC1708F07300A8B3AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Infinite Mario";
+			productName = "Infinite Mario";
+			productReference = 96AB67CE1708F07300A8B3AC /* Infinite Mario.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96AB67C61708F07300A8B3AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Jason Whitehorn";
+			};
+			buildConfigurationList = 96AB67C91708F07300A8B3AC /* Build configuration list for PBXProject "Infinite Mario" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 96AB67C51708F07300A8B3AC;
+			productRefGroup = 96AB67CF1708F07300A8B3AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96AB67CD1708F07300A8B3AC /* Infinite Mario */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96AB67CC1708F07300A8B3AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96AB67E01708F07300A8B3AC /* InfoPlist.strings in Resources */,
+				96AB67E81708F07300A8B3AC /* Default.png in Resources */,
+				96AB67EA1708F07300A8B3AC /* Default@2x.png in Resources */,
+				96AB67EC1708F07300A8B3AC /* Default-568h@2x.png in Resources */,
+				96AB67EE1708F07300A8B3AC /* Shader.fsh in Resources */,
+				96AB67F01708F07300A8B3AC /* Shader.vsh in Resources */,
+				96AB67F61708F07300A8B3AC /* ViewController.xib in Resources */,
+				96AB680C1708F23B00A8B3AC /* bgsheet.png in Resources */,
+				96AB680D1708F23B00A8B3AC /* endscene.gif in Resources */,
+				96AB680E1708F23B00A8B3AC /* enemysheet.png in Resources */,
+				96AB680F1708F23B00A8B3AC /* firemariosheet.png in Resources */,
+				96AB68101708F23B00A8B3AC /* font.gif in Resources */,
+				96AB68111708F23B00A8B3AC /* gameovergost.gif in Resources */,
+				96AB68121708F23B00A8B3AC /* itemsheet.png in Resources */,
+				96AB68131708F23B00A8B3AC /* logo.gif in Resources */,
+				96AB68141708F23B00A8B3AC /* mapsheet.png in Resources */,
+				96AB68151708F23B00A8B3AC /* mariosheet.png in Resources */,
+				96AB68161708F23B00A8B3AC /* particlesheet.png in Resources */,
+				96AB68171708F23B00A8B3AC /* racoonmariosheet.png in Resources */,
+				96AB68181708F23B00A8B3AC /* smallmariosheet.png in Resources */,
+				96AB68191708F23B00A8B3AC /* title.gif in Resources */,
+				96AB681A1708F23B00A8B3AC /* worldmap.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96AB67CA1708F07300A8B3AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96AB67E21708F07300A8B3AC /* main.m in Sources */,
+				96AB67E61708F07300A8B3AC /* AppDelegate.m in Sources */,
+				96AB67F31708F07300A8B3AC /* ViewController.m in Sources */,
+				96AB681E1708F4F700A8B3AC /* GameEngine.m in Sources */,
+				96AB68211708F82100A8B3AC /* GameState.m in Sources */,
+				96AB68251708F9D800A8B3AC /* TitleScreen.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96AB67DE1708F07300A8B3AC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96AB67DF1708F07300A8B3AC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		96AB67F41708F07300A8B3AC /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96AB67F51708F07300A8B3AC /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96AB67F71708F07300A8B3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		96AB67F81708F07300A8B3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96AB67FA1708F07300A8B3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Infinite Mario/Infinite Mario-Prefix.pch";
+				INFOPLIST_FILE = "Infinite Mario/Infinite Mario-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		96AB67FB1708F07300A8B3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Infinite Mario/Infinite Mario-Prefix.pch";
+				INFOPLIST_FILE = "Infinite Mario/Infinite Mario-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96AB67C91708F07300A8B3AC /* Build configuration list for PBXProject "Infinite Mario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96AB67F71708F07300A8B3AC /* Debug */,
+				96AB67F81708F07300A8B3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96AB67F91708F07300A8B3AC /* Build configuration list for PBXNativeTarget "Infinite Mario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96AB67FA1708F07300A8B3AC /* Debug */,
+				96AB67FB1708F07300A8B3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96AB67C61708F07300A8B3AC /* Project object */;
+}

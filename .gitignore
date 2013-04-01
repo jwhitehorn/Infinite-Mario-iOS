@@ -1,0 +1,6 @@
+.DS_Store
+*/build/
+*.swp
+xcuserdata
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
