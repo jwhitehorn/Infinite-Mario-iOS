@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		962096B0170B3ED700AADA3E /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 962096AE170B3ED700AADA3E /* ViewController_iPhone.xib */; };
 		96AB67D21708F07300A8B3AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96AB67D11708F07300A8B3AC /* UIKit.framework */; };
 		96AB67D41708F07300A8B3AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96AB67D31708F07300A8B3AC /* Foundation.framework */; };
 		96AB67D61708F07300A8B3AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96AB67D51708F07300A8B3AC /* CoreGraphics.framework */; };
@@ -21,7 +22,7 @@
 		96AB67EE1708F07300A8B3AC /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 96AB67ED1708F07300A8B3AC /* Shader.fsh */; };
 		96AB67F01708F07300A8B3AC /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 96AB67EF1708F07300A8B3AC /* Shader.vsh */; };
 		96AB67F31708F07300A8B3AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AB67F21708F07300A8B3AC /* ViewController.m */; };
-		96AB67F61708F07300A8B3AC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96AB67F41708F07300A8B3AC /* ViewController.xib */; };
+		96AB67F61708F07300A8B3AC /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96AB67F41708F07300A8B3AC /* ViewController_iPad.xib */; };
 		96AB680C1708F23B00A8B3AC /* bgsheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 96AB67FD1708F23B00A8B3AC /* bgsheet.png */; };
 		96AB680D1708F23B00A8B3AC /* endscene.gif in Resources */ = {isa = PBXBuildFile; fileRef = 96AB67FE1708F23B00A8B3AC /* endscene.gif */; };
 		96AB680E1708F23B00A8B3AC /* enemysheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 96AB67FF1708F23B00A8B3AC /* enemysheet.png */; };
@@ -43,6 +44,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		962096AF170B3ED700AADA3E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		96AB67CE1708F07300A8B3AC /* Infinite Mario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Infinite Mario.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96AB67D11708F07300A8B3AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		96AB67D31708F07300A8B3AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,7 +64,7 @@
 		96AB67EF1708F07300A8B3AC /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
 		96AB67F11708F07300A8B3AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		96AB67F21708F07300A8B3AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		96AB67F51708F07300A8B3AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		96AB67F51708F07300A8B3AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
 		96AB67FD1708F23B00A8B3AC /* bgsheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bgsheet.png; path = Assets/bgsheet.png; sourceTree = "<group>"; };
 		96AB67FE1708F23B00A8B3AC /* endscene.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = endscene.gif; path = Assets/endscene.gif; sourceTree = "<group>"; };
 		96AB67FF1708F23B00A8B3AC /* enemysheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = enemysheet.png; path = Assets/enemysheet.png; sourceTree = "<group>"; };
@@ -143,7 +145,8 @@
 				96AB67EF1708F07300A8B3AC /* Shader.vsh */,
 				96AB67F11708F07300A8B3AC /* ViewController.h */,
 				96AB67F21708F07300A8B3AC /* ViewController.m */,
-				96AB67F41708F07300A8B3AC /* ViewController.xib */,
+				96AB67F41708F07300A8B3AC /* ViewController_iPad.xib */,
+				962096AE170B3ED700AADA3E /* ViewController_iPhone.xib */,
 				96AB67DC1708F07300A8B3AC /* Supporting Files */,
 			);
 			path = "Infinite Mario";
@@ -262,7 +265,7 @@
 				96AB67EC1708F07300A8B3AC /* Default-568h@2x.png in Resources */,
 				96AB67EE1708F07300A8B3AC /* Shader.fsh in Resources */,
 				96AB67F01708F07300A8B3AC /* Shader.vsh in Resources */,
-				96AB67F61708F07300A8B3AC /* ViewController.xib in Resources */,
+				96AB67F61708F07300A8B3AC /* ViewController_iPad.xib in Resources */,
 				96AB680C1708F23B00A8B3AC /* bgsheet.png in Resources */,
 				96AB680D1708F23B00A8B3AC /* endscene.gif in Resources */,
 				96AB680E1708F23B00A8B3AC /* enemysheet.png in Resources */,
@@ -278,6 +281,7 @@
 				96AB68181708F23B00A8B3AC /* smallmariosheet.png in Resources */,
 				96AB68191708F23B00A8B3AC /* title.gif in Resources */,
 				96AB681A1708F23B00A8B3AC /* worldmap.png in Resources */,
+				962096B0170B3ED700AADA3E /* ViewController_iPhone.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +304,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		962096AE170B3ED700AADA3E /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				962096AF170B3ED700AADA3E /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
 		96AB67DE1708F07300A8B3AC /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -308,12 +320,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		96AB67F41708F07300A8B3AC /* ViewController.xib */ = {
+		96AB67F41708F07300A8B3AC /* ViewController_iPad.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				96AB67F51708F07300A8B3AC /* en */,
 			);
-			name = ViewController.xib;
+			name = ViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -384,6 +396,7 @@
 				GCC_PREFIX_HEADER = "Infinite Mario/Infinite Mario-Prefix.pch";
 				INFOPLIST_FILE = "Infinite Mario/Infinite Mario-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -395,6 +408,7 @@
 				GCC_PREFIX_HEADER = "Infinite Mario/Infinite Mario-Prefix.pch";
 				INFOPLIST_FILE = "Infinite Mario/Infinite Mario-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -418,6 +432,7 @@
 				96AB67FB1708F07300A8B3AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
