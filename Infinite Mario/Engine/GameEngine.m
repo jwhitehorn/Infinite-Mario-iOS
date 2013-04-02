@@ -15,7 +15,7 @@
     self = [super init];
     if(self){    
         _screen = screenLayer;
-        _state = state;
+        _stateContext = [[GameStateContext alloc] initWithState:state];
     }
     
     [self performSelector:@selector(update) withObject:nil afterDelay:UPDATE_INTERVAL];
@@ -24,8 +24,14 @@
 }
 
 - (void) update{
-    //update
-    //draw
+    CGFloat timeStamp = [[NSDate new] timeIntervalSince1970];
+    CGFloat delta = timeStamp - _lastUpdate;
+    _lastUpdate = timeStamp;
+    
+    [_stateContext update:delta];
+    //begin draw
+    [_stateContext draw:delta];
+    //end draw
     [self performSelector:@selector(update) withObject:nil afterDelay:UPDATE_INTERVAL];
 }
 

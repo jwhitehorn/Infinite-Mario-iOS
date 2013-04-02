@@ -7,11 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "GameState.h"
+#import "GameStateContext.h"
 
 @interface GameEngine : NSObject{
     CALayer *_screen;
-    GameState *_state;
+    GameStateContext *_stateContext;
+    CGFloat _lastUpdate;
 }
 
 //must be initialized on the UI thread
