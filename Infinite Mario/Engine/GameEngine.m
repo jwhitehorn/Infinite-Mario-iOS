@@ -7,6 +7,7 @@
 //
 
 #import "GameEngine.h"
+#define UPDATE_INTERVAL 100
 
 @implementation GameEngine
 
@@ -17,7 +18,15 @@
         _state = state;
     }
     
+    [self performSelector:@selector(update) withObject:nil afterDelay:UPDATE_INTERVAL];
+    
     return self;
+}
+
+- (void) update{
+    //update
+    //draw
+    [self performSelector:@selector(update) withObject:nil afterDelay:UPDATE_INTERVAL];
 }
 
 @end

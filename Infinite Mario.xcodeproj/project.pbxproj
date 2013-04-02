@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		962096B0170B3ED700AADA3E /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 962096AE170B3ED700AADA3E /* ViewController_iPhone.xib */; };
+		962096B3170B4A2000AADA3E /* GameStateContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 962096B2170B4A2000AADA3E /* GameStateContext.m */; };
 		96AB67D21708F07300A8B3AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96AB67D11708F07300A8B3AC /* UIKit.framework */; };
 		96AB67D41708F07300A8B3AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96AB67D31708F07300A8B3AC /* Foundation.framework */; };
 		96AB67D61708F07300A8B3AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96AB67D51708F07300A8B3AC /* CoreGraphics.framework */; };
@@ -45,6 +46,8 @@
 
 /* Begin PBXFileReference section */
 		962096AF170B3ED700AADA3E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		962096B1170B4A2000AADA3E /* GameStateContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameStateContext.h; path = Engine/GameStateContext.h; sourceTree = "<group>"; };
+		962096B2170B4A2000AADA3E /* GameStateContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameStateContext.m; path = Engine/GameStateContext.m; sourceTree = "<group>"; };
 		96AB67CE1708F07300A8B3AC /* Infinite Mario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Infinite Mario.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96AB67D11708F07300A8B3AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		96AB67D31708F07300A8B3AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -195,6 +198,8 @@
 				96AB681D1708F4F700A8B3AC /* GameEngine.m */,
 				96AB681F1708F82100A8B3AC /* GameState.h */,
 				96AB68201708F82100A8B3AC /* GameState.m */,
+				962096B1170B4A2000AADA3E /* GameStateContext.h */,
+				962096B2170B4A2000AADA3E /* GameStateContext.m */,
 			);
 			name = Engine;
 			sourceTree = "<group>";
@@ -298,6 +303,7 @@
 				96AB681E1708F4F700A8B3AC /* GameEngine.m in Sources */,
 				96AB68211708F82100A8B3AC /* GameState.m in Sources */,
 				96AB68251708F9D800A8B3AC /* TitleScreen.m in Sources */,
+				962096B3170B4A2000AADA3E /* GameStateContext.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

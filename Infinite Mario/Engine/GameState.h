@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+@class GameStateContext;
 
 @interface GameState : NSObject
-
+- (void) enter;
+- (void) exit;
+- (void) update:(CGFloat)delta;
+- (void) draw:(CGFloat)delta;
+- (void) checkForChange:(GameStateContext *)context;
 @end
