@@ -11,5 +11,6 @@
 @implementation Drawable
 
 - (void) drawWithContext:(GameStateContext *)context andCamera:(CGPoint)camera{}
+- (void) update:(CGFloat)delta{}
 
 @end
