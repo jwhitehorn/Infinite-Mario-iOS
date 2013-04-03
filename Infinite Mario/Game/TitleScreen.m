@@ -10,4 +10,10 @@
 
 @implementation TitleScreen
 
+- (void) enter{
+    self.drawManager = [DrawableManager new];
+    
+    //...
+}
+
 @end

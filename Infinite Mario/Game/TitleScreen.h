@@ -7,7 +7,11 @@
 //
 
 #import "GameState.h"
+#import "DrawableManager.h"
 
 @interface TitleScreen : GameState
+
+@property DrawableManager *drawManager;
+@property CGFloat camera;
 
 @end
