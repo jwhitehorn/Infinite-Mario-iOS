@@ -11,6 +11,7 @@
 		962096B3170B4A2000AADA3E /* GameStateContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 962096B2170B4A2000AADA3E /* GameStateContext.m */; };
 		962096B6170BA7B800AADA3E /* DrawableManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 962096B5170BA7B800AADA3E /* DrawableManager.m */; };
 		962096B9170BCBDA00AADA3E /* Drawable.m in Sources */ = {isa = PBXBuildFile; fileRef = 962096B8170BCBDA00AADA3E /* Drawable.m */; };
+		962096BF170BDFD700AADA3E /* BackgroundGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 962096BE170BDFD700AADA3E /* BackgroundGenerator.m */; };
 		96AB67D21708F07300A8B3AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96AB67D11708F07300A8B3AC /* UIKit.framework */; };
 		96AB67D41708F07300A8B3AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96AB67D31708F07300A8B3AC /* Foundation.framework */; };
 		96AB67D61708F07300A8B3AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96AB67D51708F07300A8B3AC /* CoreGraphics.framework */; };
@@ -54,6 +55,9 @@
 		962096B5170BA7B800AADA3E /* DrawableManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawableManager.m; path = Engine/DrawableManager.m; sourceTree = "<group>"; };
 		962096B7170BCBDA00AADA3E /* Drawable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Drawable.h; path = Engine/Drawable.h; sourceTree = "<group>"; };
 		962096B8170BCBDA00AADA3E /* Drawable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Drawable.m; path = Engine/Drawable.m; sourceTree = "<group>"; };
+		962096BD170BDFD700AADA3E /* BackgroundGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BackgroundGenerator.h; path = Game/BackgroundGenerator.h; sourceTree = "<group>"; };
+		962096BE170BDFD700AADA3E /* BackgroundGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BackgroundGenerator.m; path = Game/BackgroundGenerator.m; sourceTree = "<group>"; };
+		962096C0170D261000AADA3E /* LevelType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LevelType.h; path = Game/LevelType.h; sourceTree = "<group>"; };
 		96AB67CE1708F07300A8B3AC /* Infinite Mario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Infinite Mario.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96AB67D11708F07300A8B3AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		96AB67D31708F07300A8B3AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -219,6 +223,9 @@
 			children = (
 				96AB68231708F9D800A8B3AC /* TitleScreen.h */,
 				96AB68241708F9D800A8B3AC /* TitleScreen.m */,
+				962096BD170BDFD700AADA3E /* BackgroundGenerator.h */,
+				962096BE170BDFD700AADA3E /* BackgroundGenerator.m */,
+				962096C0170D261000AADA3E /* LevelType.h */,
 			);
 			name = Game;
 			sourceTree = "<group>";
@@ -316,6 +323,7 @@
 				962096B3170B4A2000AADA3E /* GameStateContext.m in Sources */,
 				962096B6170BA7B800AADA3E /* DrawableManager.m in Sources */,
 				962096B9170BCBDA00AADA3E /* Drawable.m in Sources */,
+				962096BF170BDFD700AADA3E /* BackgroundGenerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
